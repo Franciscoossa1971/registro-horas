@@ -1,0 +1,66 @@
+.modal-content {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.modal-header {
+    background-color: #dc3545;
+    text-align: center;
+}
+
+.modal-body {
+    font-size: 16px;
+    color: #333;
+    padding: 20px;
+}
+
+.modal-footer button {
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+}
+
+.modal-footer .btn-danger {
+    background-color: #ff4d4f;
+}
+
+.modal-footer .btn-secondary {
+    background-color: #6c757d;
+}
+
+/* Barra de progreso */
+.progress {
+    background-color: rgba(0, 123, 255, 0.1);
+    border-radius: 20px;
+    height: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Barra de progreso */
+.progress-bar {
+    transition: width 1s ease-out, background-color 0.3s ease;
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+.bg-orange {
+    background-color: #fd7e14 !important;
+}
