@@ -31,7 +31,6 @@
     background-color: #6c757d;
 }
 
-/* Barra de progreso */
 .progress {
     background-color: rgba(0, 123, 255, 0.1);
     border-radius: 20px;
@@ -39,7 +38,6 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Barra de progreso */
 .progress-bar {
     transition: width 1s ease-out, background-color 0.3s ease;
     font-weight: bold;
@@ -64,3 +62,116 @@
 .bg-orange {
     background-color: #fd7e14 !important;
 }
+
+body.dark {
+  background-color: #121212;
+  color: #eaeaea;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark .card {
+  background-color: #1e1e1e;
+  border-color: #2a2a2a;
+}
+
+body.dark .card-header,
+body.dark .card-footer {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+body.dark .border.rounded {
+  background-color: #1a1a1a;
+  border-color: #444;
+}
+
+body.dark .modal-content {
+  background-color: #1e1e1e;
+  color: #eaeaea;
+
+}
+
+body.dark .modal-header,
+body.dark .modal-footer {
+  background-color: #2a2a2a;
+}
+
+body.dark .progress {
+  background-color: rgba(255,255,255,0.1);
+}
+
+body.dark .progress-bar {
+  transition: width 1s ease-out, background-color 0.3s ease;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 30px;
+  border-radius: 20px;
+}
+
+body.dark label {
+  color: #cccccc;
+  font-weight: 500;
+}
+
+body.dark .form-control {
+  background-color: #1e1e1e;
+  color: #eaeaea;
+  border: 1px solid #444;
+}
+
+body.dark .form-control::placeholder {
+  color: #888;
+}
+
+body.dark .form-control:focus {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-color: #0d6efd; 
+  box-shadow: 0 0 0 0.2rem rgba(13,110,253,.25);
+}
+
+body.dark .form-control:disabled {
+  background-color: #2a2a2a;
+  color: #777;
+  border-color: #333;
+}
+
+body.dark .border {
+  border-color: #444 !important;
+}
+
+body.dark strong {
+  color: #eaeaea;
+}
+
+body.dark .d-flex strong,
+body.dark .d-flex span {
+  color: #9fd3ff;
+  font-weight: 500;
+}
+
+body.dark .btn-outline-primary {
+  color: #eaeaea;
+  border-color: #555;
+}
+
+body.dark .btn-outline-primary:hover {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border-color: #777;
+}
+
+body.dark .btn-danger {
+  background-color: #ff4d4f;
+}
+
+body.dark .btn-secondary {
+  background-color: #6c757d;
+}
+
+body.dark #app-title {
+  color: #eaeaea;
+  transition: color 0.3s;
+}
+

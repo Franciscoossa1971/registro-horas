@@ -6,6 +6,8 @@ const diasSemana = [
     { key: "viernes", nombre: "Viernes", color: "danger" },
 ];
 
+const toggleBtn = document.getElementById("toggle-theme");
+
 let datos = inicializarDatos();
 
 function inicializarDatos() {
@@ -245,6 +247,17 @@ function actualizarBarraSemana() {
         barra.classList.add("bg-success");
     }
 }
+
+// Cambios de color en el body
+toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+        toggleBtn.textContent = "☀️";
+    } else {
+        toggleBtn.textContent = "🌙";
+    }
+});
 
 // Renderizado
 function render() {
