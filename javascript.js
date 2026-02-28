@@ -199,7 +199,7 @@ function mostrarAlertaGlobal(titulo, mensaje, tipo) {
     const toastMsg = document.getElementById("toastMensaje");
 
     // Texto
-    toastMsg.innerHTML = `<strong>${titulo}</strong><br>${mensaje}`;
+    toastMsg.innerHTML = `<strong class="title-text">${titulo}</strong><br>${mensaje}`;
 
     // Reset clases
     toastEl.className = "toast border-0 shadow";
